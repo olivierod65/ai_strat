@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.0] - 2024-03-22
+## [1.0.0] - 2024-12-22
 
 ### Aggiunto
 - Implementazione iniziale della strategia di trading
