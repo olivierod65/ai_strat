@@ -1,0 +1,19 @@
+{
+  "name": "ai_strat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "binance-api-node": "^0.12.9",
+    "csv-writer": "^1.6.0",
+    "moment": "^2.30.1",
+    "technicalindicators": "^3.1.0"
+  }
+}

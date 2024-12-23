@@ -1,0 +1,39 @@
+# Regole per il progetto AI Trading Strategy
+
+# Struttura delle cartelle
+root/
+  ├── .cursor/          # Directory per i prompt e le configurazioni
+  ├── src/              # Codice sorgente
+  ├── test/             # Test unitari
+  └── docs/             # Documentazione aggiuntiva
+
+# Convenzioni di codice
+- Utilizzare camelCase per le variabili e le funzioni
+- Utilizzare PascalCase per le classi
+- Aggiungere commenti per spiegare la logica complessa
+- Mantenere le funzioni sotto le 30 righe quando possibile
+
+# Gestione dei file
+- Aggiornare CHANGELOG.md per ogni modifica significativa
+- Mantenere .cursor/prompts.md aggiornato con i prompt utilizzati
+- Documentare le API e le funzioni principali in README.md
+
+# Commit
+- Utilizzare commit semantici (feat:, fix:, docs:, etc.)
+- Includere riferimenti agli issue quando applicabile
+- Mantenere i commit atomici e focalizzati
+
+# Testing
+- Scrivere test per le funzioni critiche
+- Mantenere la copertura dei test sopra l'80%
+- Documentare i casi di test
+
+# Sicurezza
+- Non committare chiavi API o credenziali
+- Utilizzare .env per le configurazioni sensibili
+- Validare gli input delle funzioni
+
+# Documentazione
+- Aggiornare la documentazione insieme al codice
+- Includere esempi di utilizzo
+- Documentare i parametri di configurazione
